@@ -41,6 +41,7 @@ To understand the in-context retrieval ability of long-context LLMs over various
 - Difference between Question answering and RAG
 
 ## To Run
+`pip install -r requirements.txt`
 `streamlit run web.py`
 
 ## TODO
