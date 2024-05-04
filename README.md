@@ -32,15 +32,18 @@ To understand the in-context retrieval ability of long-context LLMs over various
 
 
 
-BERT Embedding
+
+### BERT Embedding
 - Series of words
 - same length sentence
 - [START] [END]
 - USing Attention mask when padding is used
 - Difference between Question answering and RAG
 
+## To Run
+`streamlit run web.py`
 
-TODO
+## TODO
 - Using Custom Embedding
 - Using Bigger LLM
 - using Graph + vector DB
