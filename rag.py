@@ -8,8 +8,8 @@ import nltk
 nltk.download('punkt')
 import re
 # import openai 
-# openai.api_key = "sk-proj-9YYvvjMHNWqh6hbgl5xlT3BlbkFJccF4lZMKgh1Z2ywLGzM6"
-# client = OpenAI(api_key="sk-proj-Y1nPT3ZxiBFer0I0uwfjT3BlbkFJuDGIOhdf3tUk7rfN5NKI")
+# openai.api_key = ""
+# client = OpenAI(api_key="")
 
 tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-small")
 model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-small")
